@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
       <h1 className="text-4xl mb-8">Bienvenue sur Mon Application</h1>
       <form className="bg-white p-6 rounded shadow-md w-96">
         <div className="mb-4">
@@ -8,7 +8,7 @@ export default function Home() {
             className="block text-sm font-medium text-gray-600"
             htmlFor="username"
           >
-            Nom d'utilisateur :
+            Nom d&apos;utilisateur :
           </label>
           <input
             type="text"
